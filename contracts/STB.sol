@@ -3,7 +3,7 @@ pragma solidity ^0.4.24;
 // ----------------------------------------------------------------------------
 // 'StabilityToken' token contract
 //
-// Deployed to : 0x8f54C2d3C487eB4F720e6ab691e1Bd18Eb1cfDA0
+// Deployed to : 0x83CA3D288E924AcEE697E6d7Ad9f88CBEEb37c42
 // Symbol      : STB
 // Name        : StabilityToken
 // Total supply: 100000000
@@ -117,8 +117,8 @@ contract FucksToken is ERC20Interface, Owned, SafeMath {
         name = "StabilityToken";
         decimals = 18;
         _totalSupply = 100000000000000000000000000000000;
-        balances[0x8f54C2d3C487eB4F720e6ab691e1Bd18Eb1cfDA0] = _totalSupply;
-        emit Transfer(address(0), 0x8f54C2d3C487eB4F720e6ab691e1Bd18Eb1cfDA0, _totalSupply);
+        balances[0x83CA3D288E924AcEE697E6d7Ad9f88CBEEb37c42] = _totalSupply;
+        emit Transfer(address(0), 0x83CA3D288E924AcEE697E6d7Ad9f88CBEEb37c42, _totalSupply);
     }
 
 
